@@ -1,0 +1,29 @@
+/* Hero Styles remain the same as previous */
+.hero-section { display: flex; align-items: center; justify-content: space-between; padding: 80px 12%; min-height: 80vh; background-color: #0a0118; }
+.name-title { font-size: 65px; color: white; font-family: 'Fira Code', monospace; }
+
+/* --- Detailed About Styles --- */
+.detailed-about { padding: 80px 12%; background-color: #0a0118; color: white; }
+.section-code-title { font-size: 45px; font-family: 'Fira Code', monospace; margin-bottom: 10px; }
+.title-line { width: 60px; height: 2px; background: linear-gradient(to right, #915eff, #f44336); margin-bottom: 40px; }
+
+.about-content p { font-size: 17px; line-height: 1.8; color: #ccc; margin-bottom: 20px; }
+.about-content strong { color: #915eff; }
+
+.tech-intro { margin-top: 30px; font-weight: bold; color: white !important; }
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+  margin: 20px 0 40px 0;
+}
+.tech-item { font-family: monospace; color: #b3b3b3; font-size: 15px; }
+
+.cv-section { margin-top: 50px; }
+.cv-download-btn {
+  display: inline-flex; align-items: center; gap: 10px;
+  padding: 12px 25px; background: #915eff; color: white;
+  text-decoration: none; border-radius: 5px; font-weight: bold; transition: 0.3s;
+}
+.cv-download-btn:hover { background: #7a46e0; transform: translateY(-3px); }

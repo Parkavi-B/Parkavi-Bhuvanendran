@@ -1,0 +1,19 @@
+/* Universal Section Layout */
+.section-wrapper {
+  padding: 100px 12%;
+  background-color: #0a0118;
+  color: white;
+  min-height: 80vh; /* Ensures sections are tall enough to trigger highlights */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Universal Section Title */
+.common-title {
+  font-size: 45px;
+  font-family: 'Fira Code', monospace;
+  margin-bottom: 30px;
+  text-align: left; /* Aligns Skill title just like About title */
+}
+
+.bracket { color: #915eff; }

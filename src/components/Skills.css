@@ -1,0 +1,42 @@
+.skills-intro-text {
+  font-size: 17px; /* Matches your About bio font size */
+  line-height: 1.7;
+  color: #cccccc;
+  max-width: 800px;
+  margin-bottom: 50px;
+}
+
+.skills-grid-layout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.skill-top-row {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.num {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: 'Fira Code', monospace;
+}
+
+.progress-bar {
+  height: 18px;
+  flex-grow: 1;
+}
+
+.skill-label {
+  font-family: 'Fira Code', monospace;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.skill-detail {
+  font-size: 15px;
+  color: #b3b3b3;
+}

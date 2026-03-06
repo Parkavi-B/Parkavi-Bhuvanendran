@@ -1,0 +1,96 @@
+.about-me-section {
+  padding: 100px 12%;
+  background-color: #0a0118;
+  color: white;
+  border-top: 1px solid rgba(145, 94, 255, 0.1);
+}
+
+.about-me-container {
+  display: flex;
+  gap: 60px;
+  align-items: flex-start;
+}
+
+.about-me-left { flex: 1.5; }
+.about-me-right { flex: 1; display: flex; justify-content: flex-end; }
+
+.about-title {
+  font-size: 40px;
+  font-family: 'Fira Code', monospace;
+  margin-bottom: 30px;
+}
+
+.about-bio p {
+  font-size: 17px;
+  line-height: 1.7;
+  color: #cccccc;
+  margin-bottom: 20px;
+}
+
+.about-bio strong { color: #915eff; }
+
+.skills-intro {
+  margin-top: 30px;
+  font-weight: bold;
+  color: white !important;
+}
+
+/* 3-Column Skills Layout */
+.skills-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.skill-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.skill-col span {
+  font-size: 15px;
+  color: #b3b3b3;
+  font-family: monospace;
+}
+
+.cv-box { margin-top: 40px; }
+
+.cv-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 25px;
+  background: #915eff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.cv-btn:hover { background: #7a46e0; transform: translateY(-3px); }
+
+/* Vertical Image Frame */
+.vertical-image-frame {
+  width: 100%;
+  max-width: 380px;
+  border: 2px solid #915eff;
+  padding: 10px;
+  border-radius: 5px;
+  background: rgba(145, 94, 255, 0.05);
+}
+
+.vertical-image-frame img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 3px;
+}
+
+/* Mobile View */
+@media (max-width: 900px) {
+  .about-me-container { flex-direction: column; }
+  .about-me-right { order: -1; justify-content: center; margin-bottom: 30px; }
+  .skills-list { flex-direction: column; gap: 10px; }
+}

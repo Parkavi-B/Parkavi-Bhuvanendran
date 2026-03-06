@@ -1,0 +1,52 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  background: rgba(10, 1, 24, 0.9); /* Semi-transparent dark purple */
+  backdrop-filter: blur(10px);    /* Glass effect */
+  position: sticky;              /* STAYS ON TOP ON SCROLL */
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid rgba(145, 94, 255, 0.2);
+}
+
+.nav-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Fira Code', monospace;
+}
+
+.bracket { color: #915eff; }
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: #b3b3b3;
+  font-size: 14px;
+  text-transform: lowercase;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-menu li a:hover {
+  color: #915eff;
+}
+
+.nav-menu li a.active {
+  color: #915eff;
+  border-bottom: 2px solid #915eff;
+  padding-bottom: 5px;
+}
+
+.nav-menu li a.active {
+  color: #915eff;
+  border-bottom: 2px solid #915eff;
+  padding-bottom: 5px;
+}
