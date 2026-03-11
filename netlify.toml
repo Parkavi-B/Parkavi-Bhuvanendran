@@ -1,0 +1,14 @@
+[build]
+  command = "npm install"
+  functions = "."
+  publish = "public"
+
+[[redirects]]
+  from = "/balance/*"
+  to = "/.netlify/functions/index/balance/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/transfer"
+  to = "/.netlify/functions/index/transfer"
+  status = 200
